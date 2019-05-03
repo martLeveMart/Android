@@ -9,8 +9,9 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import com.example.practice.plats.*;
 
-public class ExempleAdapter extends ArrayAdapter {
+public class ExempleAdapter extends ArrayAdapter<Plats> {
 
 
     public ExempleAdapter(Context context, int resource) {
