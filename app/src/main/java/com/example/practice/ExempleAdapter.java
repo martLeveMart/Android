@@ -26,7 +26,7 @@ public class ExempleAdapter extends ArrayAdapter<Plats> {
         TextView tv1 = v.findViewById(R.id.item_text);
         TextView tv2 = v.findViewById(R.id.item_prix);
         tv1.setText(data.getLabel());
-        tv2.setText(data.getPrix().toString());
+        tv2.setText(data.getPrix() + " €");
         return v;
     }
 
