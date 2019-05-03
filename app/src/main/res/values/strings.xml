@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Application IPI</string>
+    <string name="login">Identifiant</string>
+    <string name="password">mot de passe</string>
+    <string name="connect">Connection</string>
+    <string name="error_login">Mots de Passe et Login incorrect</string>
+</resources>
