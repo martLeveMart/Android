@@ -8,7 +8,7 @@
         android:id="@+id/item_image"
         android:layout_width="wrap_content"
         android:layout_height="100dp"
-        android:layout_weight="20"
+        android:layout_weight="40"
         app:srcCompat="@drawable/plat1" />
 
     <TextView
@@ -16,6 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:layout_weight="40"
+        android:gravity="center_vertical"
         android:text="TextView" />
 
     <TextView

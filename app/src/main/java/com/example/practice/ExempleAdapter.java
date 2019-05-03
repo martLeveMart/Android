@@ -22,9 +22,11 @@ public class ExempleAdapter extends ArrayAdapter<Plats> {
     public View getView(int position, View convertView, ViewGroup parent) {
         LayoutInflater inflater = LayoutInflater.from(this.getContext());
         View v = inflater.inflate(R.layout.plat_item, null);
-        Object data = this.getItem(position);
+        Plats data = this.getItem(position);
         TextView tv1 = v.findViewById(R.id.item_text);
-        tv1.setText(data.toString());
+        TextView tv2 = v.findViewById(R.id.item_prix);
+        tv1.setText(data.getLabel());
+        tv2.setText(data.getPrix().toString());
         return v;
     }
 
