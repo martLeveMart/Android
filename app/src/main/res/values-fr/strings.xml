@@ -5,4 +5,8 @@
     <string name="password">mot de passe</string>
     <string name="connect">Connection</string>
     <string name="error_login">Mots de Passe et Login incorrect</string>
+    <string name="email">Email</string>
+    <string name="title">Titre</string>
+    <string name="des">Commentaire</string>
+    <string name="send">Envoyer</string>
 </resources>
