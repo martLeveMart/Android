@@ -1,14 +1,18 @@
 package com.example.practice.plats;
 
-public class Plats {
+import java.io.Serializable;
+
+public class Plats implements Serializable {
     private Double prix;
     private String label;
     private String imageURL;
+    private String description;
 
-    public Plats(String img, String name, Double prix){
+    public Plats(String img, String name, Double prix, String des){
         this.prix = prix;
         label = name;
         imageURL = img;
+        description = des;
     }
 
     public Double getPrix() {
@@ -33,5 +37,13 @@ public class Plats {
 
     public void setImageURL(String imageURL) {
         this.imageURL = imageURL;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 }
