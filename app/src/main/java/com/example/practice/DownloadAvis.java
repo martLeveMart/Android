@@ -23,6 +23,6 @@ public class DownloadAvis extends AsyncTask<URL, Integer, Avis[]> {
     }
 
     protected void onPostExecute(Avis[] avis){
-        Log.i("AVIS", "J'ai" + avis.length + " avis.");
+        Log.i("AVIS", "J'ai " + avis.length + " avis.");
     }
 }

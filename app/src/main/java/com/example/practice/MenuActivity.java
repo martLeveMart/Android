@@ -23,8 +23,10 @@ public class MenuActivity extends AppCompatActivity {
             case R.id.upload:
                 break;
             case R.id.fav:
-                Intent fav = new Intent(this, FavActivity.class);
+                Intent fav = new Intent(this, DisplayAvis.class);
                 startActivity(fav);
+                /*Intent fav = new Intent(this, FavActivity.class);
+                startActivity(fav);*/
                 break;
             case R.id.map:
                 break;

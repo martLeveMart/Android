@@ -8,4 +8,5 @@
     <string name="title">Titre</string>
     <string name="des">Commentaire</string>
     <string name="send">Envoyer</string>
+    <string name="title_activity_display_avis">DisplayAvis</string>
 </resources>
