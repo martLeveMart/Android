@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.practice.plats.Plats;
+import com.example.practice.model.Plats;
 
 public class DetailPlat extends AppCompatActivity {
 

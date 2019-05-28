@@ -1,4 +1,4 @@
-package com.example.practice.plats;
+package com.example.practice.model;
 
 import java.io.Serializable;
 

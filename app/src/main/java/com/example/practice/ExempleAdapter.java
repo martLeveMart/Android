@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-import com.example.practice.plats.*;
+import com.example.practice.model.*;
 
 public class ExempleAdapter extends ArrayAdapter<Plats> {
 
