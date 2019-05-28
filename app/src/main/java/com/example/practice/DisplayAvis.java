@@ -20,7 +20,7 @@ public class DisplayAvis extends AppCompatActivity {
 
         try{
             URL url = new URL("http://formation-pro.eu:8080/avis");
-            new DownloadAvis().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR, url);
+            new DownloadAvis(this).executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR, url);
         }catch (MalformedURLException e){
             e.printStackTrace();
         }

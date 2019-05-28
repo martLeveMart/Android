@@ -4,7 +4,7 @@ public class Avis {
     private String id;
     private String mail;
     private String description;
-    private Integer nbStar;
+    private Double nbStar;
     private String title;
 
     public String getId() {
@@ -31,11 +31,11 @@ public class Avis {
         this.description = description;
     }
 
-    public Integer getNbStar() {
+    public Double getNbStar() {
         return nbStar;
     }
 
-    public void setNbStar(Integer nbStar) {
+    public void setNbStar(Double nbStar) {
         this.nbStar = nbStar;
     }
 
